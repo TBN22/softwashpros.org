@@ -2,6 +2,13 @@
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 
 <head>
+    <link rel="stylesheet" href="/wp-content/themes/Divi/core/admin/fonts/module.ttf">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/wp-content/themes/Divi/core/admin/fonts/module.ttf">
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="pingback" href="https://xmlrpc.php" />
@@ -355,6 +362,23 @@
             margin-top: 0;
             padding: 1.25em 2.375em
         }
+        .et_pb_menu li.menu-item-has-children > a::after {
+    content: "\f107"; /* fa-chevron-down */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 8px;
+    display: inline-block;
+}
+.et_pb_menu li.menu-item-has-children > a:after {
+    content: "\33"; /* Divi's down arrow icon from ETModules font */
+    font-family: 'ETModules';
+    font-size: 16px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+        
     </style>
     <link rel='stylesheet' id='mediaelement-css'
         href='/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
@@ -2633,7 +2657,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             font-display: block;
             src: url(//wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot);
             /* code phat rah */
-            src: url(//wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?#iefix) format("embedded-opentype"), url(//wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff) format("woff"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf) format("truetype"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg#ETmodules) format("svg");
+            src: url(//wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?#iefix) format("embedded-opentype"), url(//wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff) format("woff"), url(///wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf) format("truetype"), url(///wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg#ETmodules) format("svg");
             font-weight: 400;
             font-style: normal
         }
@@ -2654,7 +2678,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             font-display: block;
             src: url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot);
             /* phone icon phat raha hai */
-            src: url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2) format("woff2"), url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff) format("woff"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf) format("truetype"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg#fontawesome) format("svg")
+            src: url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2) format("woff2"), url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff) format("woff"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf) format("truetype"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg#fontawesome) format("svg")
         }
 
         @font-face {
@@ -2663,7 +2687,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             font-weight: 400;
             font-display: block;
             src: url(//wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot);
-            src: url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(//softwashpros.org/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg")
+            src: url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2) format("woff2"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff) format("woff"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf) format("truetype"), url(///wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg#fontawesome) format("svg")
         }
 
         @media (min-width:981px) {
@@ -7065,8 +7089,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
                                 <div
                                     class="et_pb_button_module_wrapper et_pb_button_0_tb_header_wrapper et_pb_button_alignment_right et_pb_button_alignment_tablet_center et_pb_button_alignment_phone_center et_pb_module ">
-                                    <a class="et_pb_button et_pb_button_0_tb_header et_pb_bg_layout_light"
-                                        href="tel:+13866315259" data-icon="&#xf879;">(386) 631-5259</a>
+                                    <a class="et_pb_button et_pb_button_0_tb_header et_pb_bg_layout_light" href="tel:+13866315259">
+                                        <i class="fa-solid fa-phone"></i> (386) 631-5259
+                                    </a>
 
                                 </div>
                             </div>
@@ -10480,9 +10505,9 @@ My deck was getting slippery and dangerous to even walk on at times. The wash co
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-417e325a-6464-448f-9416-11ce2be20f01" data-elfsight-app-lazy></div>
     <!-- screen phat rahi hai  -->
-    <script type="text/javascript" src="https://softwashpros.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script type="text/javascript" src="https://softwashpros.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script type="text/javascript" id="jquery-js-after">
         /* <![CDATA[ */
@@ -10553,23 +10578,23 @@ My deck was getting slippery and dangerous to even walk on at times. The wash co
         var et_pb_box_shadow_elements = [];
         /* ]]> */
     </script>
-    <script type="text/javascript" src="https://softwashpros.org/wp-content/themes/Divi/js/scripts.min.js?ver=4.24.2"
+    <script type="text/javascript" src="/wp-content/themes/Divi/js/scripts.min.js?ver=4.24.2"
         id="divi-custom-script-js"></script>
     <script type="text/javascript"
-        src="https://softwashpros.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.24.2"
+        src="/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.24.2"
         id="fitvids-js"></script>
     <script type="text/javascript"
-        src="https://softwashpros.org/wp-content/plugins/supreme-modules-for-divi/scripts/frontend-bundle.min.js?ver=2.5.5"
+        src="/wp-content/plugins/supreme-modules-for-divi/scripts/frontend-bundle.min.js?ver=2.5.5"
         id="supreme-modules-for-divi-frontend-bundle-js"></script>
     <script type="text/javascript"
-        src="https://softwashpros.org/wp-content/themes/Divi/core/admin/js/common.js?ver=4.24.2"
+        src="/wp-content/themes/Divi/core/admin/js/common.js?ver=4.24.2"
         id="et-core-common-js"></script>
     <script type="text/javascript" src="https://stats.wp.com/e-202421.js" id="jetpack-stats-js"
         data-wp-strategy="defer"></script>
     <script type="text/javascript" id="jetpack-stats-js-after">
         /* <![CDATA[ */
         _stq = window._stq || [];
-        _stq.push(["view", JSON.parse("{\"v\":\"ext\",\"blog\":\"230922919\",\"post\":\"30\",\"tz\":\"0\",\"srv\":\"softwashpros.org\",\"hp\":\"atomic\",\"ac\":\"3\",\"amp\":\"0\",\"j\":\"1:13.5-a.3\"}")]);
+        _stq.push(["view", JSON.parse("{\"v\":\"ext\",\"blog\":\"230922919\",\"post\":\"30\",\"tz\":\"0\",\"srv\":\"\",\"hp\":\"atomic\",\"ac\":\"3\",\"amp\":\"0\",\"j\":\"1:13.5-a.3\"}")]);
         _stq.push(["clickTrackerInit", "230922919", "30"]);
         /* ]]> */
     </script>
@@ -10655,10 +10680,10 @@ My deck was getting slippery and dangerous to even walk on at times. The wash co
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="https://softwashpros.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"
+        src="/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"
         id="mediaelement-core-js"></script>
     <script type="text/javascript"
-        src="https://softwashpros.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.3"
+        src="/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.3"
         id="mediaelement-migrate-js"></script>
     <script type="text/javascript" id="mediaelement-js-extra">
         /* <![CDATA[ */
